@@ -1,0 +1,141 @@
+main {
+    font-family: Verdana;
+}
+
+.top-bar {
+    color: black;
+
+}
+
+.sitename {
+    font-size: 200%;
+    display:inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*Links Styles*/
+
+a.nav-links:link { text-decoration: none; color: black; }
+a.nav-links:visited { text-decoration: none; color: black; }
+a.nav-links:hover { text-decoration: none; color: black; }
+a.nav-links:active { text-decoration: none; color: black; }
+
+.links {
+    color: black;
+
+    display: flex;
+    align-items: baseline;
+
+    margin-top: 3%;
+    margin-right: 5%;
+
+    float: right;
+    gap: 75px;
+}
+
+div a:link { color: black; }
+div a:visited { color: black; }
+div a:hover { color: black; }
+div a:active { color: black; }
+
+/*Title Styles*/
+
+.title-section {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+.title-text {
+    font-size: 500%;
+}
+.title-section a {
+    font-size: 75%;
+}
+
+h2 {
+    font-weight: normal;
+    margin-left: 2%;
+}
+/*Menu | Submenu Styles*/
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submenu {
+    border-style: solid;
+    max-width: 33%;
+    width: 33%;
+    position: relative;
+    height: 300px;
+}
+
+.submenu h3 {
+    font-size: 125%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.submenu p {
+    color: #444444;
+    font-size: small;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.submenu a {
+    margin-left: 10%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5%;
+    font-size: 75%;
+    font-weight: bold;
+}
+/*Footer Styles*/
+footer {
+    margin-left: 2%;
+    margin-top: 1%;
+    display: flex;
+}
+
+footer h4 {
+    font-size: 125%;
+    margin-bottom: 0%;
+}
+
+footer p {
+    font-size: 60%;
+    margin-right: 50%;
+    margin-bottom: 5%;
+}
+
+.socials {
+    display: flex;
+    gap: 50%;
+    margin-top: 3%;
+    height: fit-content;
+    padding-right: 45%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div.socials a:link { text-decoration: none; color: black; }
+div.socials a:visited { text-decoration: none; color: black; }
+div.socials a:hover { text-decoration: none; color: black; }
+div.socials a:active { text-decoration: none; color: black; }
+
+div.footer-links a:link { text-decoration: none; color: black; }
+div.footer-links a:visited { text-decoration: none; color: black; }
+div.footer-links a:hover { text-decoration: none; color: black; }
+div.footer-links a:active { text-decoration: none; color: black; }
